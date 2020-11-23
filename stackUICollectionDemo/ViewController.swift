@@ -95,6 +95,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "ButtonsStackViewTableCell", for: indexPath) as! ButtonsStackViewTableCell
         cell.delegate = self
+        cell.configCell(titleText: "Demo", buttonTitles: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"])
         //cell.setString(self.requestUrl(forQR: true)!)
         return cell
     }
@@ -120,7 +121,7 @@ extension ViewController : ButtonsStackViewTableCellDelegate {
         */
         
         print(text)
-        self.tableView.reloadData()
+        //self.tableView.reloadData()
     }
 }
 
