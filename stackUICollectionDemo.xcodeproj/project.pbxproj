@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B3EA844256B5DA400F4B154 /* ButtonsStackViewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B3EA842256B5DA400F4B154 /* ButtonsStackViewTableCell.xib */; };
+		3B3EA845256B5DA400F4B154 /* ButtonsStackViewTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3EA843256B5DA400F4B154 /* ButtonsStackViewTableCell.swift */; };
 		3B58DB4D25665F550022C3DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58DB4C25665F550022C3DC /* AppDelegate.swift */; };
 		3B58DB4F25665F550022C3DC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58DB4E25665F550022C3DC /* SceneDelegate.swift */; };
 		3B58DB5125665F550022C3DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B58DB5025665F550022C3DC /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B3EA842256B5DA400F4B154 /* ButtonsStackViewTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonsStackViewTableCell.xib; sourceTree = "<group>"; };
+		3B3EA843256B5DA400F4B154 /* ButtonsStackViewTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonsStackViewTableCell.swift; sourceTree = "<group>"; };
 		3B58DB4925665F550022C3DC /* stackUICollectionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stackUICollectionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B58DB4C25665F550022C3DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B58DB4E25665F550022C3DC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		3B58DB4B25665F550022C3DC /* stackUICollectionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3B3EA843256B5DA400F4B154 /* ButtonsStackViewTableCell.swift */,
+				3B3EA842256B5DA400F4B154 /* ButtonsStackViewTableCell.xib */,
 				3B58DB4C25665F550022C3DC /* AppDelegate.swift */,
 				3B58DB4E25665F550022C3DC /* SceneDelegate.swift */,
 				3B58DB5025665F550022C3DC /* ViewController.swift */,
@@ -126,6 +132,7 @@
 			files = (
 				3B58DB5925665F570022C3DC /* LaunchScreen.storyboard in Resources */,
 				3B58DB5625665F570022C3DC /* Assets.xcassets in Resources */,
+				3B3EA844256B5DA400F4B154 /* ButtonsStackViewTableCell.xib in Resources */,
 				3B58DB5425665F550022C3DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				3B58DB5125665F550022C3DC /* ViewController.swift in Sources */,
 				3B58DB4D25665F550022C3DC /* AppDelegate.swift in Sources */,
+				3B3EA845256B5DA400F4B154 /* ButtonsStackViewTableCell.swift in Sources */,
 				3B58DB4F25665F550022C3DC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
